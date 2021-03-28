@@ -15,9 +15,12 @@ class CreateSuppliersTable extends Migration
     {
         Schema::create('suppliers', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('name');
+            $table->string('name')->required();
+            $table->unsignedBigInteger('registered_by');
+            $table->foreign('registered_by')->references('id')->on('users')->onDelete('restrict');
             $table->timestamps();
         });
+
     }
 
     /**

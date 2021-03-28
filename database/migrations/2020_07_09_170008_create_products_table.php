@@ -15,12 +15,14 @@ class CreateProductsTable extends Migration
     {
         Schema::create('products', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('name');
-            $table->string('code', 80);
+            $table->string('name')->required();
+            $table->string('code')->required();
             $table->double('price');
             $table->enum('status', ['active','deleted']);
             $table->timestamps();
         });
+
+
     }
 
     /**
@@ -31,5 +33,6 @@ class CreateProductsTable extends Migration
     public function down()
     {
         Schema::dropIfExists('products');
+
     }
 }

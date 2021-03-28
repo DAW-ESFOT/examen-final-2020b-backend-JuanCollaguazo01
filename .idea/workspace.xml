@@ -20,12 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89c75aad-4b7c-4a6a-9fb6-aafbcd303cec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/prueba1-b1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/prueba1-b1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/supplier.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Supplier.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_07_09_170008_create_products_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_07_09_170008_create_products_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_07_09_170251_create_customers_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_07_09_170251_create_customers_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_03_25_215714_create_suppliers_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_03_25_215714_create_suppliers_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/ProductsTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/ProductsTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +161,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../examen-final-2020b-backend-DiegoJavb" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -191,7 +197,8 @@
       <updated>1594331551952</updated>
       <workItem from="1594331553652" duration="5402000" />
       <workItem from="1594764331689" duration="569000" />
-      <workItem from="1616722187517" duration="5007000" />
+      <workItem from="1616722187517" duration="10114000" />
+      <workItem from="1616851453156" duration="45015000" />
     </task>
     <servers />
   </component>
@@ -211,15 +218,34 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="271" y="153" key="FileChooserDialogImpl" timestamp="1616722279019">
+    <state x="127" y="90" key="#Inspections" timestamp="1616867089325">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="127" y="90" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1616867089325" />
+    <state x="240" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1616878083336">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="240" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824/1920.0.1600.860@0.0.1536.824" timestamp="1616878083336" />
+    <state x="240" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1616732283234" />
+    <state x="271" y="153" key="FileChooserDialogImpl" timestamp="1616888808752">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="271" y="153" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1600.860@0.0.1536.824" timestamp="1616888808752" />
     <state x="271" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1616722279019" />
+    <state x="247" y="132" key="RollbackChangesDialog" timestamp="1616891400427">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="247" y="132" key="RollbackChangesDialog/0.0.1536.824/1920.0.1600.860@0.0.1536.824" timestamp="1616891400427" />
     <state x="0" y="57" key="SettingsEditor" timestamp="1616722281003">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="0" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1616722281003" />
+    <state x="289" y="145" key="search.everywhere.popup" timestamp="1616887744421">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="289" y="145" key="search.everywhere.popup/0.0.1536.824/1920.0.1600.860@0.0.1536.824" timestamp="1616887744421" />
   </component>
 </project>
