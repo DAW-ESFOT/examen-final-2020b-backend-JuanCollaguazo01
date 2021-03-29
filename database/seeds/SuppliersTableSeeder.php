@@ -26,10 +26,18 @@ class SuppliersTableSeeder extends Seeder
             // Y ahora con este usuario creamos algunos articulos
 
             for ($j = 0; $j < 3; $j++) {
-                Supplier::create([
+                $supplier = Supplier::create([
                 'name' => $faker->firstName,
             ]);
-
+                $supplier->products()->saveMany(
+                    $faker->randomElements(
+                        array(
+                            Product::find(1),
+                            Product::find(2),
+                            Product::find(3)
+                        ), $faker->numberBetween(1, 3), false
+                    )
+                );
         }
     }
     }

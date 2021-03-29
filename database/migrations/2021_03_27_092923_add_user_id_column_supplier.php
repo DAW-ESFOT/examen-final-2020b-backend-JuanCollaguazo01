@@ -19,6 +19,7 @@ class AddUserIdColumnSupplier extends Migration
             $table->unsignedBigInteger('supplier_id');
             $table->foreign('supplier_id')->references('id')->on('suppliers')->onDelete('restrict');
             $table->timestamps();
+
         });
     }
 
@@ -29,8 +30,6 @@ class AddUserIdColumnSupplier extends Migration
      */
     public function down()
     {
-        Schema::disableForeignKeyConstraints();
         Schema::dropIfExists('product_supplier');
-        Schema::enableForeignKeyConstraints();
     }
 }

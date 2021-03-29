@@ -21,17 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="89c75aad-4b7c-4a6a-9fb6-aafbcd303cec" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/supplier.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Supplier.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/migrations/2020_07_09_170008_create_products_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_07_09_170008_create_products_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_07_09_170251_create_customers_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_07_09_170251_create_customers_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_03_25_215714_create_suppliers_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_03_25_215714_create_suppliers_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/ProductsTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/ProductsTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_03_27_092923_add_user_id_column_supplier.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_03_27_092923_add_user_id_column_supplier.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/SuppliersTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/SuppliersTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +191,8 @@
       <workItem from="1594331553652" duration="5402000" />
       <workItem from="1594764331689" duration="569000" />
       <workItem from="1616722187517" duration="10114000" />
-      <workItem from="1616851453156" duration="45015000" />
+      <workItem from="1616851453156" duration="49819000" />
+      <workItem from="1616990244700" duration="3781000" />
     </task>
     <servers />
   </component>
