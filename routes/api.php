@@ -22,6 +22,7 @@ Route::get('products/{product}', 'ProductController@show');
 
 Route::group(['middleware' => ['jwt.verify']], function() {
     Route::get('user', 'UserController@getAuthenticatedUser');
+    Route::post('logout', 'UserController@logout');
 
     Route::post('products', 'ProductController@store');
     Route::put('products/{product}', 'ProductController@update');
