@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89c75aad-4b7c-4a6a-9fb6-aafbcd303cec" name="Default Changelist" comment="" />
+    <list default="true" id="89c75aad-4b7c-4a6a-9fb6-aafbcd303cec" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Procflie" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -146,6 +149,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../examen-final-2020b-backend-DiegoJavb" />
@@ -187,6 +192,7 @@
       <workItem from="1616722187517" duration="10114000" />
       <workItem from="1616851453156" duration="49819000" />
       <workItem from="1616990244700" duration="12270000" />
+      <workItem from="1617295478425" duration="178000" />
     </task>
     <servers />
   </component>
@@ -194,7 +200,7 @@
     <option name="shellPath" value="C:\Program Files\Git\bin\bash.exe" />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
